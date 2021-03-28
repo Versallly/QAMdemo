@@ -72,7 +72,7 @@ npx cypress run --config baseUrl=https://www.adweek.com  //cli version
 
 //----------------------------------------TYPES OF CHECKS-------------------------------------------------------------------
 
-
+ 
 cy.url().should('incude', 'partOfTheAddressLink') //check the link
 
 cy.title().should('eq', 'Adweek'); //title check
