@@ -61,7 +61,7 @@ cy.get('.owl-dt-popup')
 
 
 cy.visit('https://www.adweek.com/');  //page visit
-
+ 
 {
     "baseUrl": "https://www.adweek.com"  //page visit with base URL in CYPRESS.JSON
 }
@@ -73,7 +73,7 @@ npx cypress run --config baseUrl=https://www.adweek.com  //cli version
 
 //----------------------------------------TYPES OF CHECKS-------------------------------------------------------------------
 
-
+ 
 cy.url().should('incude', 'partOfTheAddressLink') //check the link
 
 cy.title().should('eq', 'Adweek'); //title check
