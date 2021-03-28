@@ -61,7 +61,7 @@ cy.get('.owl-dt-popup')
 
 
 cy.visit('https://www.adweek.com/');  //page visit
-
+ 
 {
     "baseUrl": "https://www.adweek.com"  //page visit with base URL in CYPRESS.JSON
 }
