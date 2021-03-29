@@ -67,7 +67,7 @@ cy.visit('https://www.adweek.com/');  //page visit
 }
 
 cy.visit('/');  
-
+ 
 npx cypress run --config baseUrl=https://www.adweek.com  //cli version
 
 
