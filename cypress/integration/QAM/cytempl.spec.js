@@ -254,5 +254,3 @@ it('Sign in', function () {
 
 
   https://habr.com/ru/post/342116/ 
-  //
-<>
