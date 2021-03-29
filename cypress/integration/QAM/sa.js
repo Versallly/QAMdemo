@@ -1,11 +1,11 @@
 describe('Create mark - unmark as favorite', function(){
     it('Login', function(){
-        cy.visit('http://paramount-demo.frogslayerdev.com');
+        cy.visit('https://www.adweek.com/');
         cy.title().should('eq', 'Login - Paramount & Co');
         cy.get('input[type="email"]').type('larry.test@frogslayer.com');
         cy.get('input[type="password"]').type('P@ssword1');
         cy.get('.btn').contains('Login').should('be.visible').click();
-        cy.contains('Logout').should('be.visible');        
+        cy.contains('Sign In').should('be.visible');        
     })
     it('Add project', function(){
         cy.contains('Add Project').click();

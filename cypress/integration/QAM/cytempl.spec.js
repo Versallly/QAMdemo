@@ -251,3 +251,6 @@ it('Sign in', function () {
   expect(text).not.to.include('bar')
   cy.get('p#abcd').should('have.text',"Wildness")
   cy.contains('.todo-list li', 'write tests').should('have.class', 'completed') //IF CLASS WAS ADDED AFTER MANIPULATION
+
+
+  https://habr.com/ru/post/342116/
