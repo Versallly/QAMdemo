@@ -16,3 +16,4 @@ describe('Create mark - unmark as favorite', function(){
         cy.get('p').contains('Your account information was not found. Please try again or click ').should('be.visible');   
     });
 });
+//
