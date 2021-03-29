@@ -253,4 +253,5 @@ it('Sign in', function () {
   cy.contains('.todo-list li', 'write tests').should('have.class', 'completed') //IF CLASS WAS ADDED AFTER MANIPULATION
 
 
-  https://habr.com/ru/post/342116/
+  https://habr.com/ru/post/342116/ 
+  //
